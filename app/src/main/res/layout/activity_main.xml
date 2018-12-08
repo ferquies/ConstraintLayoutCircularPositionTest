@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivCenter"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/circle_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:textSize="64sp"
+        app:layout_constraintTop_toTopOf="@+id/ivCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/ivCenter"
+        app:layout_constraintLeft_toLeftOf="@+id/ivCenter"
+        app:layout_constraintRight_toRightOf="@+id/ivCenter"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A1"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A2"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="36"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A3"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="72"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A4"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="108"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A5"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="144"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A6"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A7"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="216"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A8"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="252"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A9"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="288"
+        app:layout_constraintCircleRadius="250dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle_background"
+        android:text="A10"
+        android:textColor="@android:color/white"
+        app:layout_constraintCircle="@id/ivCenter"
+        app:layout_constraintCircleAngle="324"
+        app:layout_constraintCircleRadius="250dp" />
+
+</android.support.constraint.ConstraintLayout>
